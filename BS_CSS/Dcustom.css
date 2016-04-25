@@ -1,0 +1,11 @@
+i{
+    font-size: 32px;
+}
+body{
+    padding-top: 70px;
+}
+
+.navbar-default .navbar-brand {
+    color:coral;
+    font-size: 2em;
+}
