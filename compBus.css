@@ -1,23 +1,30 @@
-img{
-    max-width: 100%;
-    margin-top: 80px;
-}
 
 .navbar-default .navbar-brand {
     color: #3b3939;
-    font-size: 3em;
+    font-size: 2.5em;
 }
 .navbar-default {
     background-color: white;
     border-color: #E7E7E7;
 }
-.footer img{
-   margin-left: 220px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+.image{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  padding-top: 50px;
 }
 .footer{
-    border-top: black solid 1px;
-    margin-top: 50px;
+    border-top:  solid 1px #E7E7E7;
+    margin-top: 45px;
     background-color: rgba(255, 255, 248, 0.5);
+}
+.social{
+  font-size: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.social>a{
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
